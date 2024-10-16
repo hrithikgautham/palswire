@@ -53,7 +53,7 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your'e not alone</Text>
+                           <Text h5>Youre not alone</Text>
                            <Text span>
                               You always have someone to accompany you
                            </Text>
