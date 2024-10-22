@@ -87,46 +87,11 @@ export const Hero = () => {
                   {/* <Input placeholder="Enter your email address" size="lg" /> */}
                   <Button style={{backgroundColor: "#e0e349", color: "black",}}>Download Now on IOS</Button>
                </Flex>
-               <Flex
-                  wrap={'wrap'}
-                  css={{
-                     'gap': '$8',
-                     'py': '$7',
-                     '@sm': {
-                        py: '$4',
-                     },
-                  }}
-               >
-                  {/* <Flex
-                     css={{
-                        color: '$accents7',
-                        alignItems: 'center',
-                     }}
-                  >
-                     <CheckIcon /> No credit card required.
-                  </Flex>
-                  <Flex
-                     css={{
-                        color: '$accents7',
-                        alignItems: 'center',
-                     }}
-                  >
-                     <CheckIcon /> 14-day free trial.
-                  </Flex>
-                  <Flex
-                     css={{
-                        color: '$accents7',
-                        alignItems: 'center',
-                     }}
-                  >
-                     <CheckIcon /> Cancel anytime.
-                  </Flex> */}
-               </Flex>
+       
             </Box>
             <Box
                css={{
                   '& img': {
-                     width: '775px',
                      objectFit: 'contain',
                   },
                }}
