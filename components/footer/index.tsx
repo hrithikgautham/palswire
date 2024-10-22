@@ -13,7 +13,7 @@ export const Footer = () => {
          }}
       >
          <Box as={'footer'} css={{width: '100%'}}>
-            <Flex
+            {/* <Flex
                justify={'center'}
                wrap={'wrap'}
                align={'center'}
@@ -170,7 +170,7 @@ export const Footer = () => {
                      </Box>
                   </Box>
                </Flex>
-            </Flex>
+            </Flex> */}
             <Box
                css={{
                   'px': '$10',
@@ -179,13 +179,13 @@ export const Footer = () => {
                   },
                }}
             >
-               <Divider
+               {/* <Divider
                   css={{
                      mt: '$14',
                      display: 'flex',
                      justifyContent: 'center',
                   }}
-               />
+               /> */}
                <Flex
                   //   justify={'between'}
                   align={'center'}
@@ -206,9 +206,6 @@ export const Footer = () => {
                      wrap={'wrap'}
                   >
                      <AcmeLogo />
-                     <AcmeLogo />
-                     <AcmeLogo />
-                     <AcmeLogo />
                   </Flex>
                   <Flex
                      css={{
@@ -228,7 +225,7 @@ export const Footer = () => {
                      }}
                   >
                      <Text span css={{color: '$accents8'}}>
-                        © Copyright 2021 Acme Inc.
+                        © Copyright 2021 Palswire Inc.
                      </Text>
                   </Flex>
                </Flex>

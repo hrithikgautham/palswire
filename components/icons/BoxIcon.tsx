@@ -8,9 +8,10 @@ export const BoxIcon = () => {
          css={{
             width: 'auto',
             height: 'fit-content',
+            
          }}
       >
-         <Svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+         <Svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" color="#e0e349">
             <Svg.Path
                css={{
                   fill: '$accents9',

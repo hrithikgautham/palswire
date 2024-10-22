@@ -59,7 +59,7 @@ export const Hero = () => {
                      css={{
                         display: 'inline',
                      }}
-                     color="primary"
+                     color="#e0e349"
                   >
                      Anywhere
                   </Text>
@@ -81,10 +81,11 @@ export const Hero = () => {
                      gap: '$8',
                      pt: '$4',
                   }}
+                  
                   wrap={'wrap'}
                >
                   {/* <Input placeholder="Enter your email address" size="lg" /> */}
-                  <Button>Download Now on IOS</Button>
+                  <Button style={{backgroundColor: "#e0e349", color: "black",}}>Download Now on IOS</Button>
                </Flex>
                <Flex
                   wrap={'wrap'}
@@ -130,7 +131,7 @@ export const Hero = () => {
                   },
                }}
             >
-               <Image src={"mock.png"} alt="Hello"/>
+               <Image src={"/mock.png"} alt="Hello"  width={270} height={480} className="shadow-md"/>
             </Box>
          </Flex>
          <Divider

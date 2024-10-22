@@ -38,9 +38,9 @@ export const Features3 = () => {
                <Card css={{mw: '500px'}}>
                   <Card.Body>
                      <Flex css={{gap: '0.5rem'}}>
-                        <BoxIcon />
+                        {/* <BoxIcon /> */}
                         <Flex direction={'column'}>
-                           <Text h5>Connect Closeby</Text>
+                           <Text h5 color='#e0e349'>Connect Closeby</Text>
                            <Text span>
                               Connect with people in your locality
                            </Text>
@@ -51,9 +51,9 @@ export const Features3 = () => {
                <Card css={{mw: '500px'}}>
                   <Card.Body>
                      <Flex css={{gap: '0.5rem'}}>
-                        <BoxIcon />
+                        {/* <BoxIcon /> */}
                         <Flex direction={'column'}>
-                           <Text h5>Youre not alone</Text>
+                           <Text h5 color='#e0e349'>Youre not alone</Text>
                            <Text span>
                               You always have someone to accompany you
                            </Text>
@@ -74,11 +74,11 @@ export const Features3 = () => {
                <Card css={{mw: '500px'}}>
                   <Card.Body>
                      <Flex css={{gap: '0.5rem'}}>
-                        <BoxIcon />
+                        {/* <BoxIcon /> */}
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5 color='#e0e349'>Location Based</Text>
                            <Text span>
-                              fsdfs
+                              Find the best people in your location
                            </Text>
                         </Flex>
                      </Flex>
@@ -87,13 +87,11 @@ export const Features3 = () => {
                <Card css={{mw: '500px'}}>
                   <Card.Body>
                      <Flex css={{gap: '0.5rem'}}>
-                        <BoxIcon />
+                        {/* <BoxIcon /> */}
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5 color='#e0e349'>Group Chat</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                              Chat with the right people
                            </Text>
                         </Flex>
                      </Flex>
