@@ -36,8 +36,7 @@ export const Plans = () => {
                 </Grid>
                 <Grid xs={12}>
                   <Text css={{ color: '$accents8' }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    condimentum, nisl ut aliquam lacinia, elit
+                  Browse, post, invite up to 4 people per post
                   </Text>
                 </Grid>
               </Grid.Container>
@@ -54,31 +53,7 @@ export const Plans = () => {
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    1 Team Members
-                  </Text>
-                </Flex>
-                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
-                  <CheckIcon />
-                  <Text span css={{ color: '$accents8' }}>
-                    1 Website
-                  </Text>
-                </Flex>
-                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
-                  <CheckIcon />
-                  <Text span css={{ color: '$accents8' }}>
-                    1 GB Storage
-                  </Text>
-                </Flex>
-                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
-                  <CheckIcon />
-                  <Text span css={{ color: '$accents8' }}>
-                    1 TB Transfer
-                  </Text>
-                </Flex>
-                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
-                  <CheckIcon />
-                  <Text span css={{ color: '$accents8' }}>
-                    Email Support
+                    Invite Upto 4 people per post
                   </Text>
                 </Flex>
               </Box>
@@ -94,51 +69,39 @@ export const Plans = () => {
                 </Grid>
                 <Grid xs={12}>
                   <Text css={{ color: '$accents8' }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    condimentum, nisl ut aliquam lacinia, elit
+                    Everything in Free, plus Browse ad-free, post, invite up to 10 people per post
                   </Text>
                 </Grid>
               </Grid.Container>
             </Card.Header>
             <Card.Body css={{ py: '$4' }}>
               <Text css={{ display: 'contents' }} h2>
-                $19{' '}
+                $270{' '}
               </Text>
               <Text css={{ display: 'contents', color: '$accents8' }}>/mo</Text>
               <Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button>
 
               <Divider />
               <Box as={'ul'}>
-                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+              <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    5 Team Members
+                    Everything in Free
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    5 Website
+                    Add Free
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    5 GB Storage
+                    Invite Upto 10 people per post
                   </Text>
                 </Flex>
-                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
-                  <CheckIcon />
-                  <Text span css={{ color: '$accents8' }}>
-                    5 TB Transfer
-                  </Text>
-                </Flex>
-                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
-                  <CheckIcon />
-                  <Text span css={{ color: '$accents8' }}>
-                    Email Support
-                  </Text>
-                </Flex>
+                
               </Box>
             </Card.Body>
           </Card>
@@ -152,15 +115,14 @@ export const Plans = () => {
                 </Grid>
                 <Grid xs={12}>
                   <Text css={{ color: '$accents8' }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    condimentum, nisl ut aliquam lacinia, elit
+                  Everything in Premium, plus invite up to 20 people per post
                   </Text>
                 </Grid>
               </Grid.Container>
             </Card.Header>
             <Card.Body css={{ py: '$4' }}>
               <Text css={{ display: 'contents' }} h2>
-                $99{' '}
+                $530{' '}
               </Text>
               <Text css={{ display: 'contents', color: '$accents8' }}>/mo</Text>
               <Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button>
@@ -170,31 +132,14 @@ export const Plans = () => {
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    30 Team Members
+                   
+                   Everything in Premium
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    30 Website
-                  </Text>
-                </Flex>
-                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
-                  <CheckIcon />
-                  <Text span css={{ color: '$accents8' }}>
-                    30 GB Storage
-                  </Text>
-                </Flex>
-                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
-                  <CheckIcon />
-                  <Text span css={{ color: '$accents8' }}>
-                    30 TB Transfer
-                  </Text>
-                </Flex>
-                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
-                  <CheckIcon />
-                  <Text span css={{ color: '$accents8' }}>
-                    Email Support
+                    Invite upto 20 people per post
                   </Text>
                 </Flex>
               </Box>
