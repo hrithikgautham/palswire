@@ -3,6 +3,7 @@ import React from 'react';
 import {AcmeLogo} from '../navbar/logo';
 import {Box} from '../styles/box';
 import {Flex} from '../styles/flex';
+import Link from 'next/link';
 
 export const Footer = () => {
    return (
@@ -212,9 +213,11 @@ export const Footer = () => {
                         gap: '$6',
                      }}
                   >
+                     <Link href="/terms-and-conditions">
                      <Text span css={{color: '$accents8'}}>
-                        Terms of Service
+                        Terms and Conditions
                      </Text>
+                     </Link>
                      <Text span css={{color: '$accents8'}}>
                         Privacy Policy
                      </Text>

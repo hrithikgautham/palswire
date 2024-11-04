@@ -43,7 +43,7 @@ export const Plans = () => {
             </Card.Header>
             <Card.Body css={{ py: '$4' }}>
               <Text css={{ display: 'contents' }} h2>
-                $0{' '}
+                ₹0{' '}
               </Text>
               <Text css={{ display: 'contents', color: '$accents8' }}>/mo</Text>
               <Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button>
@@ -64,19 +64,19 @@ export const Plans = () => {
               <Grid.Container css={{ pl: '$6' }}>
                 <Grid xs={12}>
                   <Text h4 css={{ lineHeight: '$xs' }}>
-                    Premiun
+                    Premium
                   </Text>
                 </Grid>
                 <Grid xs={12}>
                   <Text css={{ color: '$accents8' }}>
-                    Everything in Free, plus Browse ad-free, post, invite up to 10 people per post
+                    Everything in Free, plus Browse Ad-free, post, invite up to 10 people per post
                   </Text>
                 </Grid>
               </Grid.Container>
             </Card.Header>
             <Card.Body css={{ py: '$4' }}>
               <Text css={{ display: 'contents' }} h2>
-                $270{' '}
+                ₹270{' '}
               </Text>
               <Text css={{ display: 'contents', color: '$accents8' }}>/mo</Text>
               <Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button>
@@ -92,7 +92,7 @@ export const Plans = () => {
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    Add Free
+                    Ad Free
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
@@ -122,7 +122,7 @@ export const Plans = () => {
             </Card.Header>
             <Card.Body css={{ py: '$4' }}>
               <Text css={{ display: 'contents' }} h2>
-                $530{' '}
+                ₹530{' '}
               </Text>
               <Text css={{ display: 'contents', color: '$accents8' }}>/mo</Text>
               <Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button>

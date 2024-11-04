@@ -16,9 +16,8 @@ import {Footer} from '../components/footer';
 
 const Home: NextPage = () => {
    return (
-      <Layout>
-         <Nav />
          <Box as="main">
+            <Nav />
             <Hero />
             {/* <Trusted /> */}
             {/* <Features1 /> */}
@@ -31,7 +30,6 @@ const Home: NextPage = () => {
             {/* <Trial /> */}
             <Footer />
          </Box>
-      </Layout>
    );
 };
 

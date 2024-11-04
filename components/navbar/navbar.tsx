@@ -11,11 +11,8 @@ export const Nav = () => {
    const {setTheme} = useNextTheme();
    const {isDark, type} = useTheme();
    const collapseItems = [
-      'Features',
-      'Customers',
-      'Pricing',
-      'Company',
-      'Legal',
+      'About Us',
+      "FAQ's"
    ];
 
    useEffect(() => {
@@ -25,6 +22,7 @@ export const Nav = () => {
       <Navbar
          isBordered
          css={{
+            "zIndex": 1000,
             'overflow': 'hidden',
             '& .nextui-navbar-container': {
                background: '$background',
@@ -38,13 +36,13 @@ export const Nav = () => {
             {/* <Text b color="inherit" hideIn="xs">
                Palswire
             </Text> */}
-            {/* <Navbar.Content
+            <Navbar.Content
                hideIn="sm"
                css={{
                   pl: '6rem',
                }}
             >
-               <Dropdown isBordered>
+               {/* <Dropdown isBordered>
                   <Navbar.Item>
                      <Dropdown.Button
                         auto
@@ -119,17 +117,18 @@ export const Nav = () => {
                         +Supreme Support
                      </Dropdown.Item>
                   </Dropdown.Menu>
-               </Dropdown>
-               <Navbar.Link isActive href="#">
-                  Customers
+               </Dropdown> */}
+               <Navbar.Link href="/faq">
+                  FAQ's
                </Navbar.Link>
-               <Navbar.Link href="#">Pricing</Navbar.Link>
-               <Navbar.Link href="#">Company</Navbar.Link>
-            </Navbar.Content> */}
+               <Navbar.Link href="/about-us">About Us</Navbar.Link>
+               <Navbar.Link href="/pricing">Pricing</Navbar.Link>
+               <Navbar.Link href="/terms-and-conditions">T&C</Navbar.Link>
+            </Navbar.Content>
          </Navbar.Brand>
 
          <Navbar.Collapse>
-            {/* {collapseItems.map((item, index) => (
+            {collapseItems.map((item, index) => (
                <Navbar.CollapseItem key={item}>
                   <Link
                      color="inherit"
@@ -141,7 +140,7 @@ export const Nav = () => {
                      {item}
                   </Link>
                </Navbar.CollapseItem>
-            ))} */}
+            ))}
             {/* <Navbar.CollapseItem>
                <Link
                   color="inherit"
