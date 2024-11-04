@@ -182,7 +182,7 @@ export default function index() {
                            color: '$accents8',
                         }}
                      >
-                      Our app is provided "as is" and "as available" without warranties of any kind, either express or implied. We do not warrant that the app will be uninterrupted, error-free, or secure.
+                      Our app is provided &ldquo;as is&ldquo; and &ldquo;as available&ldquo; without warranties of any kind, either express or implied. We do not warrant that the app will be uninterrupted, error-free, or secure.
                      </Text>
                   </Flex>
                </Flex>
@@ -216,7 +216,7 @@ export default function index() {
                            color: '$accents8',
                         }}
                      >
-                      You agree to indemnify and hold us harmless from any claims, damages, losses, liabilities, and expenses (including attorneys' fees) arising out of or in connection with your use of the app or any violation of these Terms.
+                      You agree to indemnify and hold us harmless from any claims, damages, losses, liabilities, and expenses (including attorneys&apos; fees) arising out of or in connection with your use of the app or any violation of these Terms.
                      </Text>
                   </Flex>
                </Flex>

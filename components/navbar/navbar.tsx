@@ -17,7 +17,7 @@ export const Nav = () => {
 
    useEffect(() => {
       setTheme("light");
-   }, [])
+   })
    return (
       <Navbar
          isBordered
@@ -119,7 +119,7 @@ export const Nav = () => {
                   </Dropdown.Menu>
                </Dropdown> */}
                <Navbar.Link href="/faq">
-                  FAQ's
+                  FAQ&apos;s
                </Navbar.Link>
                <Navbar.Link href="/about-us">About Us</Navbar.Link>
                <Navbar.Link href="/pricing">Pricing</Navbar.Link>
