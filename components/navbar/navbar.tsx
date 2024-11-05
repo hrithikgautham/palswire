@@ -11,8 +11,26 @@ export const Nav = () => {
    const {setTheme} = useNextTheme();
    const {isDark, type} = useTheme();
    const collapseItems = [
-      'About Us',
-      "FAQ's"
+      {
+         name: "FAQs",
+         href: "/faq"
+      },
+      {
+         name: 'About Us',
+         href: "/about-us"
+      },
+      {
+         name: "Pricing",
+         href: "/pricing"
+      },
+      {
+         name: 'T&C',
+         href: "/terms-and-conditions"
+      }, 
+      {
+         name: 'Contact Us',
+         href: "/contact-us"
+      }, 
    ];
 
    useEffect(() => {
@@ -124,20 +142,21 @@ export const Nav = () => {
                <Navbar.Link href="/about-us">About Us</Navbar.Link>
                <Navbar.Link href="/pricing">Pricing</Navbar.Link>
                <Navbar.Link href="/terms-and-conditions">T&C</Navbar.Link>
+               <Navbar.Link href="/contact-us">Contact Us</Navbar.Link>
             </Navbar.Content>
          </Navbar.Brand>
 
          <Navbar.Collapse>
             {collapseItems.map((item, index) => (
-               <Navbar.CollapseItem key={item}>
+               <Navbar.CollapseItem key={item.name}>
                   <Link
                      color="inherit"
                      css={{
                         minWidth: '100%',
                      }}
-                     href="#"
+                     href={item?.href}
                   >
-                     {item}
+                     {item.name}
                   </Link>
                </Navbar.CollapseItem>
             ))}

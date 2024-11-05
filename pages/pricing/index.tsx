@@ -3,6 +3,7 @@ import {Button, Divider, Text} from '@nextui-org/react';
 import { Flex } from '../../components/styles/flex';
 import { BoxIcon } from '../../components/icons/BoxIcon';
 import { Nav } from '../../components/navbar/navbar';
+import { Footer } from '../../components/footer';
 
 export default function index() {
   return (
@@ -133,6 +134,7 @@ export default function index() {
          <Divider
             css={{position: 'absolute', inset: '0p', left: '0', mt: '$5'}}
          />
+         <Footer />
       </>
   )
 }
