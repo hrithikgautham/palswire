@@ -45,7 +45,7 @@ export const Plans = () => {
               <Text css={{ display: 'contents' }} h2>
                 ₹0{' '}
               </Text>
-              <Text css={{ display: 'contents', color: '$accents8' }}>/mo</Text>
+              <Text css={{ display: 'contents', color: '$accents8' }}>/Yr</Text>
               <Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button>
 
               <Divider />
@@ -78,7 +78,7 @@ export const Plans = () => {
               <Text css={{ display: 'contents' }} h2>
                 ₹270{' '}
               </Text>
-              <Text css={{ display: 'contents', color: '$accents8' }}>/mo</Text>
+              <Text css={{ display: 'contents', color: '$accents8' }}>/Yr</Text>
               <Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button>
 
               <Divider />
@@ -124,7 +124,7 @@ export const Plans = () => {
               <Text css={{ display: 'contents' }} h2>
                 ₹530{' '}
               </Text>
-              <Text css={{ display: 'contents', color: '$accents8' }}>/mo</Text>
+              <Text css={{ display: 'contents', color: '$accents8' }}>/Yr</Text>
               <Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button>
 
               <Divider />
@@ -165,7 +165,7 @@ export const Plans = () => {
               <Text css={{ display: 'contents' }} h2>
                 $199{' '}
               </Text>
-              <Text css={{ display: 'contents', color: '$accents8' }}>/mo</Text>
+              <Text css={{ display: 'contents', color: '$accents8' }}>/Yr</Text>
               <Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button>
 
               <Divider />
