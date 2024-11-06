@@ -42,6 +42,9 @@ export const Plans = () => {
               </Grid.Container>
             </Card.Header>
             <Card.Body css={{ py: '$4' }}>
+            <div>
+                  <p style={{fontWeight: "bold"}}>Just</p>
+                </div>
               <Text css={{ display: 'contents' }} h2>
                 ₹0{' '}
               </Text>
@@ -75,10 +78,24 @@ export const Plans = () => {
               </Grid.Container>
             </Card.Header>
             <Card.Body css={{ py: '$4' }}>
-              <Text css={{ display: 'contents' }} h2>
-                ₹276{' '}
-              </Text>
-              <Text css={{ display: 'contents', color: '$accents8' }}>/Yr</Text>
+            <div>
+                  <p style={{fontWeight: "bold"}}>Just</p>
+                </div>
+              <div style={{display: "flex", justifyContent: "flex-start", alignItems: "center", gap: 8,}}>
+                <div>
+                  <Text css={{ display: 'contents' }} h2>
+                  ₹276{' '}
+                </Text>
+                <Text css={{ display: 'contents', color: '$accents8' }}>/Yr</Text>
+                </div>
+                <div><p>or</p></div>
+                <div>
+                  <Text css={{ display: 'contents' }} h2>
+                  ₹23{' '}
+                </Text>
+                <Text css={{ display: 'contents', color: '$accents8' }}>/Mo</Text>
+                </div>
+              </div>
               <Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button>
 
               <Divider />
@@ -121,10 +138,24 @@ export const Plans = () => {
               </Grid.Container>
             </Card.Header>
             <Card.Body css={{ py: '$4' }}>
-              <Text css={{ display: 'contents' }} h2>
-                ₹530{' '}
-              </Text>
-              <Text css={{ display: 'contents', color: '$accents8' }}>/Yr</Text>
+            <div>
+                  <p style={{fontWeight: "bold"}}>Just</p>
+                </div>
+            <div style={{display: "flex", justifyContent: "flex-start", alignItems: "center", gap: 8,}}>
+                <div>
+                  <Text css={{ display: 'contents' }} h2>
+                  ₹540{' '}
+                </Text>
+                <Text css={{ display: 'contents', color: '$accents8' }}>/Yr</Text>
+                </div>
+                <div><p>or</p></div>
+                <div>
+                  <Text css={{ display: 'contents' }} h2>
+                  ₹45{' '}
+                </Text>
+                <Text css={{ display: 'contents', color: '$accents8' }}>/Mo</Text>
+                </div>
+              </div>
               <Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button>
 
               <Divider />
