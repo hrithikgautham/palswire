@@ -31,6 +31,10 @@ export const Nav = () => {
          name: 'Contact Us',
          href: "/contact-us"
       }, 
+      {
+         name: 'Pivacy Policy',
+         href: "/privacy-policy"
+      }, 
    ];
 
    useEffect(() => {
@@ -143,6 +147,7 @@ export const Nav = () => {
                <Navbar.Link href="/pricing">Pricing</Navbar.Link>
                <Navbar.Link href="/terms-and-conditions">T&C</Navbar.Link>
                <Navbar.Link href="/contact-us">Contact Us</Navbar.Link>
+               <Navbar.Link href="/privacy-policy">Privacy Policy</Navbar.Link>
             </Navbar.Content>
          </Navbar.Brand>
 

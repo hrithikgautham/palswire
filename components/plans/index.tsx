@@ -76,7 +76,7 @@ export const Plans = () => {
             </Card.Header>
             <Card.Body css={{ py: '$4' }}>
               <Text css={{ display: 'contents' }} h2>
-                ₹270{' '}
+                ₹276{' '}
               </Text>
               <Text css={{ display: 'contents', color: '$accents8' }}>/Yr</Text>
               <Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button>

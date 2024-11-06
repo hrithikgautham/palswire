@@ -218,9 +218,11 @@ export const Footer = () => {
                         Terms and Conditions
                      </Text>
                      </Link>
+                     <Link href="/privacy-policy">
                      <Text span css={{color: '$accents8'}}>
                         Privacy Policy
                      </Text>
+                     </Link>
                   </Flex>
                   <Flex
                      css={{
